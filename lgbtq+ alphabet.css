@@ -1,0 +1,107 @@
+body {
+    background-image: url("../images/background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h2 {
+    color: #586199;
+    background-color: #6ADADC;
+    font-size: 60px;
+    box-sizing: border-box;
+    width: 520px;
+    margin-left: 400px;
+}
+            
+* {
+    font-family: monospace;
+    text-align: center;
+}
+            
+table {
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #6ADADC;
+}
+            
+td {
+    font-size: 25px;
+    color: #7B74CF;
+    padding-bottom: 40px;
+}
+            
+th {
+    font-size: 35px;
+    color:#7B74CF;
+}
+            
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F8EF91;
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 10px;
+}
+            
+div {
+    height: 125px;
+}
+            
+p {
+    font-size: 15px;
+    color: #464150;
+    text-align: center;
+    font-family: serif;
+}
+
+.source {
+    float: left;
+    clear: left;
+    margin-left: 130px;
+}
+            
+ul {
+    list-style-type: none;
+    position: absolute;
+}
+
+li {
+    float: left;
+    padding-left: 125px;
+    color: #FAFAFA;
+    font-size: 20;
+}
+
+a {
+    color: #FAFAFA;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #91F8E5;
+}
+
+.logo {
+    padding-top: 100px;
+}
+
+.footer>p {
+    padding-top: 10px;
+}
+
+.fb {
+    position: static;
+    float: left;
+    background: url(../images/icon.png) no-repeat -182px -91px;
+    height: 33px;
+    width: 33px;
+    margin-left: 590px;
+}
+
+.ig {
+    float: left;
+    padding-left: 25px;
+}

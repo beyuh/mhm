@@ -1,0 +1,66 @@
+body {
+    background-image: url("../images/background.png");
+}
+
+h1 {
+    color: #FAFAFA;
+    font-size: 80px;
+}
+            
+* {
+    font-family: monospace;
+    text-align: center;
+}
+            
+h3 {
+    font-size: 30px;
+    color: #FAFAFA;
+    text-align: center;
+}
+            
+table, td {
+    font-size: 30px;
+    color: #FAFAFA;
+}
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F8EF91;
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 10px;
+}
+            
+.footer p {
+    font-family: serif;
+}
+            
+div {
+    height: 85px;
+}
+            
+p {
+    font-size: 15px;
+    color: #464150;
+    text-align: center;
+}
+
+.footer>p {
+    padding-top: 10px;
+}
+
+.fb {
+    float: left;
+    background: url(../images/icon.png) no-repeat -182px -91px;
+    height: 33px;
+    width: 33px;
+    margin-left: 590px;
+}
+
+.ig {
+    float: left;
+    padding-left: 25px;
+}
